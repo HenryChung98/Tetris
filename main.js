@@ -1,6 +1,6 @@
 import BLOCKS from "./blocks.js"
 
-//DOM
+// DOM
 const playground = document.querySelector(".playground > ul");
 const gameText = document.querySelector(".gameText");
 const scoreDisplay = document.querySelector(".score");
@@ -27,6 +27,7 @@ const movingItem = {
 
 // functions
 function init(){
+  gameText.style.display = "none";
   tempMovingItem = { ...movingItem };
   // default 값 가져옴
 
